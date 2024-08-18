@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <title>Gestor de Procesos</title>
+</head>
+<body>
+	<div class="flex flex-col h-screen">
+		<header class="flex items-center justify-center h-16 bg-white font-BricolageGrotesque text-2xl font-bold">e-brom.</header>
+		<div class="flex py-16 bg-blue-app items-center justify-center">
+				<div class="flex flex-col w-[22rem] sm:w-[26rem] md:w-[32rem] lg:w-[38rem] h-[32rem] bg-white rounded-lg shadow-lg items-center">
+					<span class="font-BricolageGrotesque text-xl font-bold py-14">Entre con su cuenta</span>
+					<div class="flex flex-row overflow-hidden border-gray-border-login border-[1px] rounded-md h-16 w-10/12 items-center">
+						<div class="flex items-center justify-center h-16 w-16 bg-blue-icon-login ">
+							<svg height="19" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M14.9247 0H2.07883C0.932133 0 0 0.932133 0 2.07883V10.8585C0 12.0052 0.932133 12.9373 2.07883 12.9373H14.9212C16.0679 12.9373 17 12.0052 17 10.8585V2.08235C17.0035 0.93565 16.0714 0 14.9247 0ZM16.0538 10.8585C16.0538 11.4811 15.5473 11.9876 14.9247 11.9876H2.07883C1.45624 11.9876 0.94972 11.4811 0.94972 10.8585V2.08235C0.94972 1.45976 1.45624 0.953238 2.07883 0.953238H14.9212C15.5438 0.953238 16.0503 1.45976 16.0503 2.08235V10.8585H16.0538Z" fill="#A1ADCC"/>
+								<path d="M10.7213 6.3596L14.8789 2.63107C15.0724 2.4552 15.09 2.15621 14.9141 1.95923C14.7382 1.76577 14.4392 1.74818 14.2423 1.92406L8.50877 7.07013L7.39021 6.07117C7.38669 6.06765 7.38317 6.06413 7.38317 6.06062C7.35855 6.036 7.33393 6.01489 7.30579 5.99378L2.75417 1.92054C2.55719 1.74467 2.2582 1.76225 2.08233 1.95923C1.90645 2.15621 1.92404 2.4552 2.12102 2.63107L6.32793 6.39126L2.13861 10.3133C1.94866 10.4926 1.93811 10.7916 2.1175 10.9851C2.21248 11.0836 2.33911 11.1363 2.46573 11.1363C2.58181 11.1363 2.69789 11.0941 2.78934 11.0097L7.04198 7.03144L8.19571 8.06207C8.28717 8.14297 8.39973 8.18166 8.51229 8.18166C8.62485 8.18166 8.74092 8.13945 8.82886 8.05855L10.0143 6.99627L14.2423 11.0132C14.3337 11.1012 14.4533 11.1434 14.5694 11.1434C14.696 11.1434 14.8191 11.0941 14.9141 10.9956C15.0935 10.8057 15.0865 10.5032 14.8965 10.3238L10.7213 6.3596Z" fill="#A1ADCC"/>
+								</svg>
+						</div>
+						<input type="text" placeholder="E-mail" class="flex-grow px-8 h-16 font-BricolageGrotesque font-bold focus:outline-none focus:font-normal">
+					</div>
+					<p class="py-2"></p>
+					<div class="flex flex-row overflow-hidden border-gray-border-login border-[1px] rounded-md h-16 w-10/12 items-center">
+						<div class="flex items-center justify-center h-16 w-16 bg-blue-icon-login ">
+							<svg width="23" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<g clip-path="url(#clip0_5_18)">
+								<path d="M14.2743 14.1322V8.43429C14.2743 7.40571 13.4351 6.56653 12.4065 6.56653H11.9363V3.93796C11.9363 1.76653 10.1698 0 7.99836 0C5.82693 0 4.06367 1.7698 4.06367 3.93796V4.39184C4.06367 4.70204 4.3151 4.9502 4.62203 4.9502C4.92897 4.9502 5.18367 4.69878 5.18367 4.39184V3.93796C5.18367 2.38367 6.44734 1.12 8.00163 1.12C9.55591 1.12 10.8196 2.38367 10.8196 3.93796V6.56653H3.59346C2.56489 6.56653 1.72571 7.40245 1.72571 8.43429V14.1322C1.72571 15.1608 2.56489 16 3.59346 16H12.4098C13.4384 15.9967 14.2743 15.1608 14.2743 14.1322ZM2.84897 14.1322V8.43429C2.84897 8.02286 3.1853 7.68653 3.59673 7.68653H12.4098C12.8212 7.68653 13.1575 8.02286 13.1575 8.43429V14.1322C13.1575 14.5437 12.8212 14.88 12.4098 14.88H3.59346C3.18203 14.8767 2.84897 14.5437 2.84897 14.1322Z" fill="#A1ADCC"/>
+								<path d="M8.00157 10.031C7.69137 10.031 7.43994 10.2824 7.43994 10.5894V12.0359C7.43994 12.3461 7.69137 12.5943 8.00157 12.5943C8.31178 12.5943 8.55994 12.3429 8.55994 12.0359V10.5894C8.55994 10.2824 8.31178 10.031 8.00157 10.031Z" fill="#A1ADCC"/>
+								</g>
+								<defs>
+								<clipPath id="clip0_5_18">
+								<rect width="16" height="16" fill="white"/>
+								</clipPath>
+								</defs>
+								</svg>
+
+						</div>
+						<input type="password" placeholder="Contraseña" class="flex-grow px-8 h-16 font-BricolageGrotesque font-bold focus:outline-none">
+					</div>
+					<p class="py-8 font-BricolageGrotesque text-blue-text-link text-sm hover:underline">¿Olvidó su contraseña?</p>
+					<button class="flex justify-center items-center h-16 w-10/12 bg-blue-button rounded-md hover:bg-blue-button-hover">
+						<span class="px-4 text-white font-bold text-lg">Entrar</span>
+						<svg height="19" viewBox="0 0 7 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1 1L6 7L1 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+					</button>
+				</div>
+		</div>
+		<p class="flex flex-grow justify-center font-BricolageGrotesque font-normal bg-blue-app w-screen">¿No tienes cuenta?<a href="#" class="ml-2 text-blue-text-link hover:underline"> Crea Una!</a></p>
+		<footer class="h-16 bg-blue-app"></footer>
+	</div>
+</body>
+</html>

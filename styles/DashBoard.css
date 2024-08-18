@@ -1,0 +1,8 @@
+@layer components{
+	/* .full-screen{
+		@apply flex h-screen
+	} */
+	.header{
+		@apply flex h-24 flex-grow bg-blue-text-link sm:rounded-br-[40px]
+	}
+}
